@@ -1,0 +1,28 @@
+main {
+  margin-top: 50px;
+  padding: 70px;
+  color: rgb(61, 61, 61);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+section h1 {
+  align-self: center;
+  font-size: 35px;
+}
+
+section p {
+  text-indent: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.legenda {
+  padding-right: 15px;
+  text-align: right;
+  font-size: 13px;
+  color: grey;
+}/*# sourceMappingURL=HomeSt.css.map */
