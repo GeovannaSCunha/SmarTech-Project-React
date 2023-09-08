@@ -11,13 +11,13 @@ export default function Cabecalho() {
                     <a id="logo" href="index.html"><img src={Logo} alt="SmarTech" width="240px"/></a>
                     
                         <ul>
-                            <li><a href="quemsomos.html">Quem Somos</a></li>
-                            <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
-                            <li><a href="tecnologia.html">Tecnologia</a></li>
-                            <li><a href="problema.html">Problema</a></li>
-                            <li><a href="solucoes.html">Soluções</a></li>
-                            <li><a href="nossosclientes.html">Nossos Clientes</a></li>
-                            <li><a href="login.html">Login</a></li>
+                            <li><a href="/quemSomos">Quem Somos</a></li>
+                            <li><a href="/sustentabilidade">Sustentabilidade</a></li>
+                            <li><a href="/tecnologia">Tecnologia</a></li>
+                            <li><a href="/problema">Problema</a></li>
+                            <li><a href="/solucoes">Soluções</a></li>
+                            <li><a href="/clientes">Nossos Clientes</a></li>
+                            <li><a href="/">Login</a></li>
                         </ul>
                 </div>
             </nav>
