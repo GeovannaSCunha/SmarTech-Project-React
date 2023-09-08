@@ -1,6 +1,7 @@
 import React from 'react'
 import './Menu.css'
 import Logo from "../img/logotipo.png"
+import { Link } from "react-router-dom";
 
 export default function Cabecalho() {
   return (
@@ -11,13 +12,13 @@ export default function Cabecalho() {
                     <a id="logo" href="index.html"><img src={Logo} alt="SmarTech" width="240px"/></a>
                     
                         <ul>
-                            <li><a href="/quemSomos">Quem Somos</a></li>
-                            <li><a href="/sustentabilidade">Sustentabilidade</a></li>
-                            <li><a href="/tecnologia">Tecnologia</a></li>
-                            <li><a href="/problema">Problema</a></li>
-                            <li><a href="/solucoes">Soluções</a></li>
-                            <li><a href="/clientes">Nossos Clientes</a></li>
-                            <li><a href="/">Login</a></li>
+                            <li><Link to="/sobre-nos">Quem Somos</Link> </li>
+                            <li><Link to="/sustentabilidade">Sustentabilidade</Link> </li>
+                            <li><Link to="/tecnologia">Tecnologia</Link> </li>
+                            <li><Link to="/problema">Problema</Link> </li>
+                            <li><Link to="/solucoes">Soluções</Link> </li>
+                            <li><Link to="/clientes">Nossos Clientes</Link> </li>
+                            <li><Link to="/">Login</Link> </li>
                         </ul>
                 </div>
             </nav>

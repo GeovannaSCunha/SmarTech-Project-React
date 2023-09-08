@@ -38,10 +38,10 @@ nav {
   float: left;
   margin: 0 15px;
 }
-.nav-container li a {
+.nav-container li Link {
   text-decoration: none;
   color: #2247e4;
 }
-.nav-container li a:hover {
+.nav-container li Link:hover {
   color: rgba(34, 70, 228, 0.7176470588);
 }/*# sourceMappingURL=menu.css.map */
