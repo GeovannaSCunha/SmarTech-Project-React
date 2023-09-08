@@ -1,6 +1,6 @@
-import Cabecalho from './components/Cabecalho'
-import Conteudo from './components/ConteudoProblema'
-import Rodape from './components/Rodape'
+import Cabecalho from '../components/Cabecalho'
+import Conteudo from '../components/ConteudoProblema'
+import Rodape from '../components/Rodape'
 
 function Problema() {
 
