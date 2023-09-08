@@ -26,31 +26,23 @@ nav{
 
 .nav-container{
     ul{
-    float: right;
-    height: 80px;
-    line-height: 80px;
-    margin: 0;
+        float: right;
+        height: 80px;
+        line-height: 80px;
+        margin: 0;
     }
-}
-.nav-container{
     li{
-    list-style: none;
-    float: left;
-    margin: 0 15px;
-    }
-}
-.nav-container{
-    li{
+        list-style: none;
+        float: left;
+        margin: 0 15px;
         a{
-        text-decoration: none;
-        color: #2247e4;
+            text-decoration: none;
+            color: #2247e4;
         }
-    }
-} 
-.nav-container{
-    li{
         a:hover{
-        color: #2246e4b7;
+            color: #2246e4b7;
         }
+
     }
 }
+
