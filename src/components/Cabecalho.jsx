@@ -1,13 +1,14 @@
 import React from 'react'
 import './Menu.css'
+import Logo from "../img/logotipo.png"
 
 export default function Cabecalho() {
   return (
-    <div class="container">
+    <div className="container">
         <header>
             <nav>
-                <div class="nav-container">
-                    <a id="logo" href="index.html"><img src="../assets/img/logotipo.png" alt="SmarTech" width="240px"/></a>
+                <div className="nav-container">
+                    <a id="logo" href="index.html"><img src={Logo} alt="SmarTech" width="240px"/></a>
                     
                         <ul>
                             <li><a href="quemsomos.html">Quem Somos</a></li>

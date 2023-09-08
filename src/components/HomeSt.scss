@@ -1,21 +1,30 @@
 main{
-    margin-top: 50px;
-    padding: 70px;
+    margin-top: 4%;
+    margin-bottom: 7%;
+    padding: 5%;
     color: rgb(61, 61, 61);
 }
 section{
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
-section h1{
-    align-self: center;
-    font-size: 35px;
+section{
+    h1{
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 4%;
+    }
+    p{
+        text-indent: 40px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 2%;
+    }
 }
-section p{
-    text-indent: 40px;
-    font-size: 18px;
-    text-align: center;
+
+.paragrafo{
+    margin-bottom: 4%;
 }
+
 .legenda{
     padding-right: 15px;
     text-align: right;
