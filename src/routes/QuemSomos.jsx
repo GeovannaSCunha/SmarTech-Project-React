@@ -1,13 +1,16 @@
-import React from 'react';
-import Cabecalho from '../components/Cabecalho';
-import Rodape from '../components/Rodape';
-import Conteudo from '../components/PagQuemSomos'
-const quemSomos = () => (
+import Cabecalho from './components/Cabecalho'
+import Conteudo from './components/ConteudoQS'
+import Rodape from './components/Rodape'
+
+function quemsomos() {
+
+  return (
     <>
     <Cabecalho/>
     <Conteudo/>
     <Rodape/>
     </>
-);
+  )
+}
 
-export default quemSomos;
+export default quemsomos
