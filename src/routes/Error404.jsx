@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default function Erro404() {
+const Erro404 = () => {
   return (
-    <div>Erro404</div>
-  )
-}
+    <div>
+      <b>Erro404</b>
+    </div>
+  );
+};
+
+export default Erro404

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Menu.css'
+import './Cabecalho.css'
 import Logo from "../img/logotipo.png"
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ export default function Cabecalho() {
         <header>
             <nav>
                 <div className="nav-container">
-                    <a id="logo" href="index.html"><img src={Logo} alt="SmarTech" width="240px"/></a>
+                    <Link id="logo" to="/"><img src={Logo} alt="SmarTech" width="240px"/></Link>
                     
                         <ul>
                             <li><Link to="/sobre-nos">Quem Somos</Link> </li>

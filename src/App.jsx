@@ -1,17 +1,19 @@
+
 import Cabecalho from './components/Cabecalho'
-import Home from './components/Home'
 import Rodape from './components/Rodape'
-import { Outlet } from "react-router-dom";
+
+//2 - reaproveitamento de estrutura
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
     <Cabecalho/>
-    <Home/>
+    <Outlet/>
     <Rodape/>
 
-    <Outlet/>
+    
     </>
   )
 }
