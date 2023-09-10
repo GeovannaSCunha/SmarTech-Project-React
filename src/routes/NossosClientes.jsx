@@ -1,6 +1,6 @@
 import React from 'react'
 import img3 from '../img/ibm.png'
-import '../components/NossosClientes.css'
+//import '../components/NossosClientes.css'
 
 export default function NC() {
   return (

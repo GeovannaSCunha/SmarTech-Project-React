@@ -18,7 +18,7 @@ export default function Cabecalho() {
                             <li><Link to="/problema">Problema</Link> </li>
                             <li><Link to="/solucoes">Soluções</Link> </li>
                             <li><Link to="/clientes">Nossos Clientes</Link> </li>
-                            <li><Link to="/">Login</Link> </li>
+                            <li><Link to="/login">Login</Link> </li>
                         </ul>
                 </div>
             </nav>
