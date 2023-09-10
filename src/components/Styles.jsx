@@ -103,28 +103,25 @@ nav {
 `
 ////////////////////////////////////////////////////////////////////
 export const StyledLogin = styled.main`
-  margin-top: 8%;
-  font-size: 1em;
-  text-align: center;
-  
-  .form {
+.form {
     width: 520px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-left: 28%;
+    margin-top:12%;
     background: #F8F8FF;
     padding: 20px;
-    border: 1px solid #3d3c3c;
-    border-radius: 10px;
     color:  #1a1a1a;
     text-align: center;
+    position: absolute
     font-size: 20px;
   }
   
   .form input {
     width: 500px;
-    display: block;
+    display: inline-block;
+    position: relative;
     outline: none;
     border: 2px solid #191970;
     background: transparent;
@@ -199,4 +196,5 @@ export const StyledLogin = styled.main`
       font-size: 20px; 
     }
   }
+
 `
