@@ -1,11 +1,10 @@
 import React from 'react'
 import img3 from '../img/ibm.png'
-//import '../components/NossosClientes.css'
-
+import { StyledNC } from '../components/Styles'
 export default function NC() {
   return (
     <>
-      <main>
+        <StyledNC>
         <h1>Parcerias</h1>
         <section>
           <div id="ibm"><img src={img3} alt="IBM" width="100%"/></div>
@@ -15,7 +14,7 @@ export default function NC() {
               <p>Projeto de Mapeamento em São paulo</p>  
             </div>
         </section>
-      </main>
+        </StyledNC>
     </>
   )
 }

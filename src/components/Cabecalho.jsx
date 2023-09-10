@@ -1,16 +1,15 @@
 import React from 'react'
-import './Cabecalho.css'
 import Logo from "../img/logotipo.png"
 import { Link } from "react-router-dom";
+import { StyledCabecalho } from '../components/Styles'
 
 export default function Cabecalho() {
   return (
-    <div className="container">
+    <StyledCabecalho>
         <header>
             <nav>
                 <div className="nav-container">
                     <Link id="logo" to="/"><img src={Logo} alt="SmarTech" width="240px"/></Link>
-                    
                         <ul>
                             <li><Link to="/sobre-nos">Quem Somos</Link> </li>
                             <li><Link to="/sustentabilidade">Sustentabilidade</Link> </li>
@@ -23,6 +22,6 @@ export default function Cabecalho() {
                 </div>
             </nav>
         </header>
-    </div>
+    </StyledCabecalho>
   )
 }

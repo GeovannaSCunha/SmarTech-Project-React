@@ -1,11 +1,11 @@
 import React from 'react'
-import './HomeSt.css'
 import imgMenu from "../img/transportes.png"
+import { StyledMain } from '../components/Styles'
 
 export default function Home() {
   return (
     <>
-        <main>
+        <StyledMain>
             <section>
                 
             <h1>Mapeamento Inteligente</h1>
@@ -23,7 +23,7 @@ export default function Home() {
             <p class="legenda">O tecido urbano de São Paulo não para de se alterar e expandir – Montagem sobre Foto: Marcos Santos/Jornal da USP</p>
 
             </section>
-        </main>
+        </StyledMain>
     </>
   )
 }
