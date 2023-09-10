@@ -10,7 +10,7 @@ export default function sus() {
             <section>
                 <p>Com a sustentabilidade, podemos suprir as necessidades atuais sem prejudicar o meio ambiente e as futuras gerações. A partir do conceito de desenvolvimento sustentável, pesquisamos formas de aprimorar as técnicas atuais para utilizar dos recursos disponíveis, tendo em consideração a preservação do planeta.</p>
 
-                <img src={img6} alt="Palneta Terra sustentavel" width="80%"/>
+                <img src={img6} alt="Planeta Terra sustentavel" width="80%"/>
             </section>
         </main>
     </>
