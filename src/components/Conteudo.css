@@ -17,13 +17,6 @@ section p {
   margin-bottom: 2%;
 }
 
-.paragrafo {
-  margin-bottom: 4%;
-}
-
-.legenda {
-  padding-right: 1%;
-  text-align: right;
-  font-size: 0.8em;
-  color: grey;
-}/*# sourceMappingURL=HomeSt.css.map */
+#questao {
+  margin-top: -4.5%;
+}/*# sourceMappingURL=Conteudo.css.map */
