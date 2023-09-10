@@ -1,11 +1,11 @@
 import React from 'react'
 import img1 from '../img/fiap.png'
-import '../components/Conteudo.css'
+import { StyledMain } from '../components/Styles'
 
 export default function QS() {
   return (
     <>
-      <main>
+      <StyledMain>
           <section>
               <h1>Quem Somos</h1>
 
@@ -15,7 +15,7 @@ export default function QS() {
               <img src={img1} alt="Unidade FIAP" width="100%"/>
 
           </section>
-      </main>
+      </StyledMain>
 
     </>
   )
