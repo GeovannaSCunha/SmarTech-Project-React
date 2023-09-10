@@ -11,7 +11,7 @@ header {
 }
 
 nav {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   height: 70px;
   width: 100%;
@@ -22,7 +22,7 @@ nav {
 
 .nav-container {
   max-width: 1200px;
-  position: relative;
+  /* position: relative; */
   margin-right: auto;
   margin-left: auto;
 }
