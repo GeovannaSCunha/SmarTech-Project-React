@@ -15,6 +15,7 @@ import Solucoes from './routes/Solucoes.jsx';
 import Sus from './routes/Sustentabilidade.jsx';
 import Tech from './routes/Tecnologia.jsx';
 import Home from './components/Home.jsx';
+import Login from './routes/Login.jsx';
 
 const router = createBrowserRouter([
   {path: "/", element: <App />, errorElement: <Erro404/>,
@@ -25,7 +26,8 @@ const router = createBrowserRouter([
     {path: "/sobre-nos", element: <QS/>},
     {path: "/solucoes", element: <Solucoes/>},
     {path: "/sustentabilidade", element: <Sus/>},
-    {path: "/tecnologia", element: <Tech/>}
+    {path: "/tecnologia", element: <Tech/>},
+    {path: "/login", element: <Login/>}
   ]},
 ]);
 
