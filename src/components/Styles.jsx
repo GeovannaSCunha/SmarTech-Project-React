@@ -25,6 +25,7 @@ export const StyledMain = styled.main`
   text-align: center;
   margin-bottom: 2%;
 }
+
 `;
 
 /////////////////////////////////////////////////////////////////////////
@@ -109,7 +110,7 @@ export const StyledLogin = styled.main`
     flex-direction: column;
     gap: 15px;
     margin-left: 28%;
-    margin-top:12%;
+    margin-top:5%;
     background: #F8F8FF;
     padding: 20px;
     color:  #1a1a1a;
@@ -145,6 +146,7 @@ export const StyledLogin = styled.main`
     font-weight: Bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
+    margin-bottom:10%;
   }
   
   button:hover {
