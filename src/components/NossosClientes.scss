@@ -1,0 +1,22 @@
+main h1{
+    margin-top: 2%;
+    font-size: 2.18em;
+    text-align: center;
+}
+section{
+    display: grid;
+    grid-template-columns: 50% 50%;      
+}
+
+#ibm{
+    img{
+        width: 40%;
+        margin-left: 60%;
+    }
+}
+#content{
+    margin-top: 13%;
+    p{
+        text-align: left;
+    }
+}
