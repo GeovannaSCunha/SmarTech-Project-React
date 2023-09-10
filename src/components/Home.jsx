@@ -11,7 +11,7 @@ export default function Home() {
             <h1>Mapeamento Inteligente</h1>
 
             <p>
-                O mapeamento inteligente é uma plataforma criada pela SmarTech juntamente com a IBM para conscientização e melhoria dos transportes públicos elétricos e sustentáveis de São Paulo.
+              O mapeamento inteligente é uma plataforma criada pela SmarTech juntamente com a IBM para conscientização e melhoria dos transportes públicos elétricos e sustentáveis de São Paulo.
             </p>
 
             <p className="paragrafo">
