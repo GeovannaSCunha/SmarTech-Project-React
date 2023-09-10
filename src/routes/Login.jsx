@@ -1,11 +1,20 @@
 import React from 'react'
+import {StyledLogin} from '../components/Styles'
 
-export default function login() {
+
+export default function formsone() {
   return (
-    <>
-    <main>
-        <h1>Oi</h1>
-    </main>  
-    </>
+    <StyledLogin>
+      <form class="form">
+      Acesse a plataforma
+      
+      <input type="text" class="input" placeholder="Usuário"></input>
+      <input type="text" class="input" placeholder="Senha"></input> 
+      
+      <button>Login</button>
+      
+      </form>
+    </StyledLogin>
+
   )
 }
