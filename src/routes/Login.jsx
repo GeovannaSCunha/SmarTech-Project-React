@@ -1,6 +1,5 @@
-import React from 'react'
-import {StyledLogin} from '../components/Styles'
-
+import {StyledLogin} from '../components/Styles';
+import { Link } from 'react-router-dom';
 
 export default function formsone() {
   return (
@@ -11,10 +10,14 @@ export default function formsone() {
       <input type="text" class="input" placeholder="Usuário"></input>
       <input type="text" class="input" placeholder="Senha"></input> 
       
-      <button>Login</button>
+      <Link to="/Feedback">
+        <button>Login</button>
+      </Link>
+
       
       </form>
     </StyledLogin>
+
 
   )
 }
