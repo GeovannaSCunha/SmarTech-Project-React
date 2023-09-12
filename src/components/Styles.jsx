@@ -200,12 +200,15 @@ export const StyledLogin = styled.main`
       font-size: 20px; 
     }
   }
+
 }
+
+
+  }
 
 `
 
-////////////////////////////////////
-
+////////////////////////////////////////////
 export const StyledFeed = styled.main`
   
   form {
