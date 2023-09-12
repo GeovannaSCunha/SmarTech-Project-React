@@ -116,6 +116,9 @@ export const StyledLogin = styled.main`
     color:  #1a1a1a;
     text-align: center;
     font-size: 20px;
+    border-radius: 15px;
+    margin-bottom:15%;
+
   }
   
   .form input {
@@ -145,7 +148,7 @@ export const StyledLogin = styled.main`
     font-weight: Bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    margin-bottom:20%;
+
   }
   
   button:hover {
