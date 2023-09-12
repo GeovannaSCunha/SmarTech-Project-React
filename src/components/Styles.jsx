@@ -115,7 +115,7 @@ export const StyledLogin = styled.main`
     padding: 20px;
     color:  #1a1a1a;
     text-align: center;
-    position: absolute
+    position: absolute;
     font-size: 20px;
   }
   
@@ -198,6 +198,7 @@ export const StyledLogin = styled.main`
       font-size: 20px; 
     }
   }
+}
 
 `
 
