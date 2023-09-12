@@ -5,7 +5,7 @@ export default function NC() {
   return (
     <>
         <StyledNC>
-        <h1>Parcerias</h1>
+        <h1>Parcerias </h1>
         <section>
           <div id="ibm"><img src={img3} alt="IBM" width="100%"/></div>
             
