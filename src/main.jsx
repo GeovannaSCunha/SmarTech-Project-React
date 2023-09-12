@@ -17,6 +17,7 @@ import Tech from './routes/Tecnologia.jsx';
 import Home from './components/Home.jsx';
 import Login from './routes/Login.jsx';
 import Feedback from './routes/Feedback.jsx';
+import Cadastra from './routes/Cadastro.jsx'
 
 const router = createBrowserRouter([
   {path: "/", element: <App />, errorElement: <Erro404/>,
@@ -29,7 +30,9 @@ const router = createBrowserRouter([
     {path: "/sustentabilidade", element: <Sus/>},
     {path: "/tecnologia", element: <Tech/>},
     {path: "/login", element: <Login/>},
-    {path: "/feedback", element: <Feedback/>}
+    {path: "/feedback", element: <Feedback/>},
+    {path: "/Cadastro", element: <Cadastra/>}
+
 
   ]},
 ]);
