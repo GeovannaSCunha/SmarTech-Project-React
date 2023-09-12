@@ -110,12 +110,15 @@ export const StyledLogin = styled.main`
     flex-direction: column;
     gap: 15px;
     margin-left: 28%;
-    margin-top:5%;
+    margin-top:10%;
     background: #F8F8FF;
     padding: 20px;
     color:  #1a1a1a;
     text-align: center;
     font-size: 20px;
+    border-radius: 15px;
+    margin-bottom:15%;
+
   }
   
   .form input {
@@ -145,7 +148,7 @@ export const StyledLogin = styled.main`
     font-weight: Bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    margin-bottom:10%;
+
   }
   
   button:hover {
@@ -200,8 +203,6 @@ export const StyledLogin = styled.main`
 
 }
 
-
-  }
 
 `
 
