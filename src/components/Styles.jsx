@@ -204,8 +204,6 @@ export const StyledLogin = styled.main`
 }
 
 
-  }
-
 `
 
 ////////////////////////////////////////////
