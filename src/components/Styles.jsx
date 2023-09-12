@@ -101,6 +101,229 @@ nav {
 .nav-container li a:hover {
   color: rgba(34, 70, 228, 0.7176470588);
 }
+
+@media(min-width: 974px) and (max-width:1041px){
+  nav{
+    height: 3.5em;
+  }
+  .nav-container li {
+    margin: 0 0.7em;
+    margin-top: -1.3%;
+}
+}
+@media(min-width: 924px) and (max-width:973px){
+  nav{
+    height: 3.5em;
+  }
+  .nav-container li {
+    margin: 0 0.7em;
+    margin-top: -9%;
+  
+}
+}
+
+@media(min-width: 903px) and (max-width:923px){
+  nav{
+    height: 3.5em;
+  }
+  .nav-container li {
+    margin: 0 0.7em;
+    margin-top: -2%;
+}
+.nav-container li a {
+  font-size: 0.9em;
+}
+}
+@media(min-width: 838px) and (max-width:902px){
+  nav{
+    height: 3.4em;
+  }
+  .nav-container li {
+    margin: 0 0.7em;
+    margin-top: -9.5%;
+}
+.nav-container li a {
+  font-size: 0.91em;
+}
+}
+@media(min-width: 806px) and (max-width:837px){
+  nav{
+    height: 3.3em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -10%;
+}
+}
+@media(min-width: 774px) and (max-width:805px){
+  nav{
+    height: 3em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -3%;
+}
+  .nav-container li a {
+    font-size: 0.9em;
+  }
+}
+@media(min-width: 740px) and (max-width:773px){
+  nav{
+    height: 2.9em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -11%;
+}
+  .nav-container li a {
+    font-size: 0.9em;
+  }
+}
+@media(min-width: 703px) and (max-width:741px){
+  nav{
+    height: 2.8em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -3.5%;
+}
+  .nav-container li a {
+    font-size: 0.8em;
+  }
+}
+@media(min-width: 666px) and (max-width:702px){
+  nav{
+    height: 2.6em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -11.6%;
+}
+  .nav-container li a {
+    font-size: 0.8em;
+  }
+}
+@media(min-width: 632px) and (max-width:665px){
+  nav{
+    height: 2.3em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -5%;
+}
+  .nav-container li a {
+    font-size: 0.7em;
+  }
+}
+@media(min-width: 400px) and (max-width:631px){
+  nav{
+    height: 2.1em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -13.5%;
+}
+  .nav-container li a {
+    font-size: 0.7em;
+  }
+}
+@media(min-width: 561px) and (max-width:584px){
+  nav{
+    height: 2em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -6%;
+}
+  .nav-container li a {
+    font-size: 0.6em;
+  }
+}
+@media(min-width: 511px) and (max-width:560px){
+  nav{
+    height: 1.8em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -15%;
+}
+  .nav-container li a {
+    font-size: 0.6em;
+  }
+}
+@media(min-width: 478px) and (max-width:510px){
+  nav{
+    height: 1.8em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -15%;
+}
+  .nav-container li a {
+    font-size: 0.55em;
+  }
+}
+@media(min-width: 454px) and (max-width:477px){
+  nav{
+    height: 1.6em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -9%;
+}
+  .nav-container li a {
+    font-size: 0.45em;
+  }
+}
+@media(min-width: 405px) and (max-width:453px){
+  nav{
+    height: 1.6em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -17.5%;
+}
+  .nav-container li a {
+    font-size: 0.45em;
+  }
+}
+@media(min-width: 391px) and (max-width:404px){
+  nav{
+    height: 1.4em;
+  }
+  .nav-container li {
+    margin: 0 0.2em;
+    margin-top: -11.4%;
+}
+  .nav-container li a {
+    font-size: 0.4em;
+  }
+}
+@media(min-width: 340px) and (max-width:390px){
+  nav{
+    height: 1.4em;
+  }
+  .nav-container li {
+    margin: 0 0.2em;
+    margin-top: -20.5%;
+}
+  .nav-container li a {
+    font-size: 0.4em;
+  }
+}
+@media(max-width:339px){
+  nav{
+    height: 1.2em;
+  }
+  .nav-container li {
+    margin: 0 0.13em;
+    margin-top: -22%;
+}
+  .nav-container li a {
+    font-size: 0.4em;
+  }
+}
+
 `
 ////////////////////////////////////////////////////////////////////
 export const StyledLogin = styled.main`
