@@ -8,7 +8,6 @@ export default function FormsOne() {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    // Verifique se as credenciais correspondem às do usuário padrão no localStorage
     const usuarioPadrao = JSON.parse(localStorage.getItem('usuarioPadrao'));
 
     if (usuario === usuarioPadrao.usuario && senha === usuarioPadrao.senha) {
