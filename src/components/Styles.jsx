@@ -209,44 +209,55 @@ export const StyledLogin = styled.main`
 ////////////////////////////////////////////
 export const StyledFeed = styled.main`
   
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-bottom:10%;
+  box-shadow: 2px 0px 2px 2px;
+}
 
-  label {
-    display: block;
-    font-weight: bold;
-    margin-top: 10px;
-  }
+h4 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align:center;
+}
 
-  input[type="radio"],
-  input[type="checkbox"],
-  input[type="text"],
-  textarea {
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
+h5 {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align:center;
+}
 
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.input {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 7px 6px;
+  margin-bottom: 20px;
+}
 
-  button:hover {
-    background-color: #0056b3;
-  }
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
 
 
 
