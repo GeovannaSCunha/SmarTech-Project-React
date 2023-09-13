@@ -35,7 +35,7 @@ export default function FormsOne() {
           value={senha}
           onChange={(e) => setSenha(e.target.value)}
         />
-        <button type="button" onClick={handleLogin}>
+        <button type="submit" onClick={handleLogin}>
           Login
         </button>
         <Link to="/cadastro">

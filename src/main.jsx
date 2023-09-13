@@ -15,8 +15,8 @@ import Solucoes from './routes/Solucoes.jsx';
 import Sus from './routes/Sustentabilidade.jsx';
 import Tech from './routes/Tecnologia.jsx';
 import Home from './components/Home.jsx';
-import Login from './routes/Login.jsx';
-import Feedback from './routes/Feedback.jsx';
+import FormsOne from './routes/Login.jsx';
+import Avalia from './routes/Feedback.jsx';
 import Cadastra from './routes/Cadastro.jsx'
 
 const router = createBrowserRouter([
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
     {path: "/solucoes", element: <Solucoes/>},
     {path: "/sustentabilidade", element: <Sus/>},
     {path: "/tecnologia", element: <Tech/>},
-    {path: "/login", element: <Login/>},
-    {path: "/feedback", element: <Feedback/>},
+    {path: "/login", element: <FormsOne/>},
+    {path: "/feedback", element: <Avalia/>},
     {path: "/Cadastro", element: <Cadastra/>}
 
 

@@ -1,8 +1,8 @@
 import { StyledFeed } from "../components/Styles";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Avalia() {
-  //Rastreio os valores do formulário
   const [formData, setFormData] = useState({
     zona: "",
     transporte: [],
