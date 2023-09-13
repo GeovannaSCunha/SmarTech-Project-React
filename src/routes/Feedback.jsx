@@ -55,6 +55,9 @@ export default function Avalia() {
         <input type="text" className="input" placeholder="" />
 
         <button type="submit">Enviar</button>
+        <Link to="/Login">
+          <button>Voltar</button>
+        </Link>
       </form>
     </StyledFeed>
   );
