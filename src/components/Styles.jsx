@@ -366,6 +366,30 @@ nav {
     font-size: 0.7em;
   }
 }
+@media(min-width: 490px) and (max-width:505px){
+  nav{
+    height: 1.7em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -16%;
+}
+  .nav-container li a {
+    font-size: 0.5em;
+  }
+}
+@media(min-width: 433px) and (max-width:438px){
+  nav{
+    height: 1.7em;
+  }
+  .nav-container li {
+    margin: 0 0.2em;
+    margin-top: -18%;
+}
+  .nav-container li a {
+    font-size: 0.45em;
+  }
+}
 `
 ////////////////////////////////////////////////////////////////////
 export const StyledLogin = styled.main`
