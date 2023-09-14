@@ -102,74 +102,69 @@ nav {
   color: rgba(34, 70, 228, 0.7176470588);
 }
 
-@media(min-width: 974px) and (max-width:1041px){
+@media(min-width: 961px) and (max-width:1074px){
   nav{
-    height: 3.5em;
+    height: 4em;
   }
   .nav-container li {
-    margin: 0 0.7em;
-    margin-top: -1.3%;
+    margin: 0 0.5em;
+    margin-top: -1%;
 }
+  .nav-container li a {
+    font-size: 1em;
+  }
 }
-@media(min-width: 924px) and (max-width:973px){
+@media(min-width: 919px) and (max-width:960px){
   nav{
-    height: 3.5em;
+    height: 3em;
   }
   .nav-container li {
-    margin: 0 0.7em;
-    margin-top: -9%;
-  
-}
-}
-
-@media(min-width: 903px) and (max-width:923px){
-  nav{
-    height: 3.5em;
-  }
-  .nav-container li {
-    margin: 0 0.7em;
+    margin: 0 0.5em;
     margin-top: -2%;
 }
-.nav-container li a {
-  font-size: 0.9em;
+  .nav-container li a {
+    font-size: 1em;
+  }
 }
-}
-@media(min-width: 838px) and (max-width:902px){
+@media(min-width: 902px) and (max-width:918px){
   nav{
-    height: 3.4em;
+    height: 3em;
   }
   .nav-container li {
-    margin: 0 0.7em;
-    margin-top: -9.5%;
-}
-.nav-container li a {
-  font-size: 0.91em;
-}
-}
-@media(min-width: 806px) and (max-width:837px){
-  nav{
-    height: 3.3em;
-  }
-  .nav-container li {
-    margin: 0 0.3em;
+    margin: 0 0.5em;
     margin-top: -10%;
 }
+  .nav-container li a {
+    font-size: 1em;
+  }
 }
-@media(min-width: 774px) and (max-width:805px){
+@media(min-width: 842px) and (max-width:901px){
+  nav{
+    height: 3.2em;
+  }
+  .nav-container li {
+    margin: 0 0.5em;
+    margin-top: -9.5%;
+}
+  .nav-container li a {
+    font-size: 1em;
+  }
+}
+@media(min-width: 774px) and (max-width:841px){
   nav{
     height: 3em;
   }
   .nav-container li {
     margin: 0 0.3em;
-    margin-top: -3%;
+    margin-top: -2.4%;
 }
   .nav-container li a {
     font-size: 0.9em;
   }
 }
-@media(min-width: 740px) and (max-width:773px){
+@media(min-width: 719px) and (max-width:773px){
   nav{
-    height: 2.9em;
+    height: 2.8em;
   }
   .nav-container li {
     margin: 0 0.3em;
@@ -179,127 +174,91 @@ nav {
     font-size: 0.9em;
   }
 }
-@media(min-width: 703px) and (max-width:741px){
+@media(min-width: 632px) and (max-width:718px){
   nav{
-    height: 2.8em;
+    height: 2.5em;
   }
   .nav-container li {
     margin: 0 0.3em;
-    margin-top: -3.5%;
+    margin-top: -4.4%;
 }
   .nav-container li a {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
-@media(min-width: 666px) and (max-width:702px){
-  nav{
-    height: 2.6em;
-  }
-  .nav-container li {
-    margin: 0 0.3em;
-    margin-top: -11.6%;
-}
-  .nav-container li a {
-    font-size: 0.8em;
-  }
-}
-@media(min-width: 632px) and (max-width:665px){
+@media(min-width: 576px) and (max-width:631px){
   nav{
     height: 2.3em;
   }
   .nav-container li {
     margin: 0 0.3em;
-    margin-top: -5%;
+    margin-top: -12.5%;
 }
   .nav-container li a {
     font-size: 0.7em;
   }
 }
-@media(min-width: 400px) and (max-width:631px){
-  nav{
-    height: 2.1em;
-  }
-  .nav-container li {
-    margin: 0 0.3em;
-    margin-top: -13.5%;
-}
-  .nav-container li a {
-    font-size: 0.7em;
-  }
-}
-@media(min-width: 561px) and (max-width:584px){
+@media(min-width: 506px) and (max-width:575px){
   nav{
     height: 2em;
   }
   .nav-container li {
     margin: 0 0.3em;
-    margin-top: -6%;
+    margin-top: -14.5%;
 }
   .nav-container li a {
     font-size: 0.6em;
   }
 }
-@media(min-width: 511px) and (max-width:560px){
+@media(min-width: 490px) and (max-width:505px){
   nav{
     height: 1.8em;
   }
   .nav-container li {
     margin: 0 0.3em;
-    margin-top: -15%;
+    margin-top: -8%;
 }
   .nav-container li a {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 }
-@media(min-width: 478px) and (max-width:510px){
+@media(min-width: 439px) and (max-width:489px){
   nav{
     height: 1.8em;
   }
   .nav-container li {
     margin: 0 0.3em;
-    margin-top: -15%;
+    margin-top: -16.5%;
 }
   .nav-container li a {
-    font-size: 0.55em;
+    font-size: 0.5em;
   }
 }
-@media(min-width: 454px) and (max-width:477px){
+@media(min-width: 433px) and (max-width:438px){
   nav{
     height: 1.6em;
-  }
-  .nav-container li {
-    margin: 0 0.3em;
-    margin-top: -9%;
-}
-  .nav-container li a {
-    font-size: 0.45em;
-  }
-}
-@media(min-width: 405px) and (max-width:453px){
-  nav{
-    height: 1.6em;
-  }
-  .nav-container li {
-    margin: 0 0.3em;
-    margin-top: -17.5%;
-}
-  .nav-container li a {
-    font-size: 0.45em;
-  }
-}
-@media(min-width: 391px) and (max-width:404px){
-  nav{
-    height: 1.4em;
   }
   .nav-container li {
     margin: 0 0.2em;
-    margin-top: -11.4%;
+    margin-top: -9.5%;
 }
   .nav-container li a {
-    font-size: 0.4em;
+    font-size: 0.46em;
   }
 }
-@media(min-width: 340px) and (max-width:390px){
+@media(min-width: 384px) and (max-width:432px){
+  nav{
+    height: 1.6em;
+  }
+  .nav-container li {
+    margin: 0 0.2em;
+    margin-top: -18.5%;
+}
+  .nav-container li a {
+    font-size: 0.46em;
+  }
+}
+@media(min-width: 338px) and (max-width:383px){
   nav{
     height: 1.4em;
   }
@@ -311,19 +270,102 @@ nav {
     font-size: 0.4em;
   }
 }
-@media(max-width:339px){
+@media(min-width: 307px) and (max-width:337px){
   nav{
     height: 1.2em;
   }
   .nav-container li {
-    margin: 0 0.13em;
-    margin-top: -22%;
+    margin: 0 0.15em;
+    margin-top: -22.5%;
 }
   .nav-container li a {
-    font-size: 0.4em;
+    font-size: 0.3em;
   }
 }
-
+@media(min-width: 292px) and (max-width:306px){
+  nav{
+    height: 1.2em;
+  }
+  .nav-container li {
+    margin: 0 0.1em;
+    margin-top: -23%;
+}
+  .nav-container li a {
+    font-size: 0.2em;
+  }
+}
+@media(min-width: 285px) and (max-width:291px){
+  nav{
+    height: 1.1em;
+  }
+  .nav-container li {
+    margin: 0 0.06em;
+    margin-top: -24.2%;
+}
+  .nav-container li a {
+    font-size: 0.1em;
+  }
+}
+@media(min-width: 561px) and (max-width:575px){
+  nav{
+    height: 2em;
+  }
+  .nav-container li {
+    margin: 0 0.2em;
+    margin-top: -13.5%;
+}
+  .nav-container li a {
+    font-size: 0.7em;
+  }
+}
+@media(max-width:287px){
+  nav{
+    height: 1.1em;
+  }
+  .nav-container li {
+    margin: 0 0.06em;
+    margin-top: -24.2%;
+}
+  .nav-container li a {
+    font-size: 0.08em;
+  }
+}
+@media(min-width: 774px) and (max-width:790px){
+  nav{
+    height: 3em;
+  }
+  .nav-container li {
+    margin: 0 0.5em;
+    margin-top: -3%;
+}
+  .nav-container li a {
+    font-size: 0.8em;
+  }
+}
+@media(min-width: 774px) and (max-width:775px){
+  nav{
+    height: 3em;
+  }
+  .nav-container li {
+    margin: 0 0.5em;
+    margin-top: -11%;
+}
+  .nav-container li a {
+    font-size: 0.8em;
+  }
+}
+@media(min-width: 632px) and (max-width:648px){
+  nav{
+    height: 2.2em;
+  }
+  .nav-container li {
+    margin: 0 0.3em;
+    margin-top: -13%;
+}
+  .nav-container li a {
+    font-size: 0.7em;
+  }
+}
 `
 ////////////////////////////////////////////////////////////////////
 export const StyledLogin = styled.main`

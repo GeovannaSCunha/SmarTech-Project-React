@@ -9,7 +9,7 @@ export default function Cabecalho() {
         <header>
             <nav>
                 <div className="nav-container">
-                    <Link id="logo" to="/"><img src={Logo} alt="SmarTech" width="240px"/></Link>
+                    <Link id="logo" to="/"><img src={Logo} alt="SmarTech" width="20%"/></Link>
                         <ul>
                             <li><Link to="/sobre-nos">Quem Somos</Link> </li>
                             <li><Link to="/sustentabilidade">Sustentabilidade</Link> </li>
