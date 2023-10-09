@@ -1,0 +1,31 @@
+/*# sourceMappingURL=Principal.css.map */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#pesquisa{
+    padding: 10px 30px;
+    margin: 15px;
+    border: 0;
+    margin-left: 20%;
+    border-radius: 100px;
+    background-color: #1a1aa3;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#feed{
+    padding: 10px 30px;
+    margin: 10%;
+    margin-left: 20%;
+    border: 0;
+    border-radius: 100px;
+    background-color: #191970;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}

@@ -1,4 +1,4 @@
-import { StyledFeed } from "../components/Styles";
+import '../styles/Feedback.css'
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -39,7 +39,7 @@ export default function Avalia() {
   };
 
   return (
-    <StyledFeed>
+    
       <form onSubmit={handleSubmit}>
         <h4>Qual a região em que você reside?</h4>
        <input type="text" className= "input" placeholder="Central, Sul, Norte, Oeste"/>
@@ -62,6 +62,6 @@ export default function Avalia() {
           <button id="v">Voltar</button>
         </Link>
       </form>
-    </StyledFeed>
+  
   );
 }
