@@ -1,4 +1,3 @@
-import React from 'react'
 import img4 from '../img/demanda.png'
 import { StyledMain } from '../components/Styles'
 
