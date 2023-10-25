@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import GlobalStyle from './styles/EstiloGlobal.js'
 import Erro404 from './routes/Error404.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 // 1- Configurando o Router
