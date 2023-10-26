@@ -1,5 +1,5 @@
 import React from 'react'
-import img5 from '../img/trajeto_onibus.png'
+import img5 from '../assets/img/trajeto_onibus.png'
 import { StyledMain } from '../components/Styles'
 
 export default function solucoes() {

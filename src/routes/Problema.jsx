@@ -1,4 +1,4 @@
-import img4 from '../img/demanda.png'
+import img4 from '../assets/img/demanda.png'
 import { StyledMain } from '../components/Styles'
 
 export default function problem() {

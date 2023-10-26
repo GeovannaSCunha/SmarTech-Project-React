@@ -1,5 +1,5 @@
 import React from 'react'
-import img7 from '../img/techsustentavel.png'
+import img7 from '../assets/img/techsustentavel.png'
 import { StyledMain } from '../components/Styles'
 
 export default function solucoes() {

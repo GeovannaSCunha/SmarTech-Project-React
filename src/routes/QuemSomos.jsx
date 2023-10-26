@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../img/fiap.png'
+import img1 from '../assets/img/fiap.png'
 import { StyledMain } from '../components/Styles'
 
 export default function QS() {

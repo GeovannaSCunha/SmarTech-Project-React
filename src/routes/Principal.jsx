@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import '../styles/Principal.css'
+import '../assets/styles/Principal.css'
 
 export default function menu(){
     return(

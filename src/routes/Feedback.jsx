@@ -1,4 +1,4 @@
-import '../styles/Feedback.css'
+import '../assets/styles/Feedback.css'
 import { useState } from "react";
 import { Link } from "react-router-dom";
 

@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from "../img/logotipo.png"
+import Logo from "../assets/img/logotipo.png"
 import { Link } from "react-router-dom";
-import '../styles/cabecalho.css'
+import '../assets/styles/cabecalho.css'
 
 export default function Cabecalho() {
   return (

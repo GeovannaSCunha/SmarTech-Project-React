@@ -1,4 +1,4 @@
-import '../styles/Cadastro.css'
+import '../assets/styles/Cadastro.css'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 

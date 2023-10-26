@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo2 from "../img/logo.png"
+import Logo2 from "../assets/img/logo.png"
 import { StyledFooter } from './Styles'
 
 export default function Rodape() {
