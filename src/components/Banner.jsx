@@ -1,8 +1,8 @@
 // src/ImageSlider.js
 import React, { useState, useEffect } from 'react';
-import Banner1 from '../img/transportes.png';
-import Banner2 from '../img/foto1.png';
-import Banner3 from '../img/foto2.png';
+import Banner1 from '../assets/img/transportes.png';
+import Banner2 from '../assets/img/foto1.png';
+import Banner3 from '../assets/img/foto2.png';
 
 const images = [Banner1, Banner2, Banner3];
 

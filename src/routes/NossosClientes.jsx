@@ -1,5 +1,4 @@
-import React from 'react'
-import img3 from '../img/ibm.png'
+import img3 from '../assets/img/ibm.png'
 import { StyledNC } from '../components/Styles'
 export default function NC() {
   return (

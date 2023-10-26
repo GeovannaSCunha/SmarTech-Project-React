@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import GlobalStyle from './styles/EstiloGlobal.js'
+import GlobalStyle from './assets/styles/EstiloGlobal.js'
 import Erro404 from './routes/Error404.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 // 1- Configurando o Router
@@ -19,6 +20,8 @@ import FormsOne from './routes/Login.jsx';
 import Avalia from './routes/Feedback.jsx';
 import Cadastra from './routes/Cadastro.jsx'
 import Avaliou from './routes/PosFeed.jsx'
+import Menu from './routes/Principal.jsx'
+
 
 const router = createBrowserRouter([
   {path: "/", element: <App />, errorElement: <Erro404/>,
@@ -33,7 +36,9 @@ const router = createBrowserRouter([
     {path: "/login", element: <FormsOne/>},
     {path: "/feedback", element: <Avalia/>},
     {path: "/Cadastro", element: <Cadastra/>},
-    {path: "/PosFeed", element: <Avaliou/>}
+    {path: "/PosFeed", element: <Avaliou/>},
+    {path: "/Principal", element: <Menu/>}
+
 
 
 

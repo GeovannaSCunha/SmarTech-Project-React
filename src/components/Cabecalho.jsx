@@ -1,12 +1,12 @@
 import React from 'react'
-import Logo from "../img/logotipo.png"
+import Logo from "../assets/img/logotipo.png"
 import { Link } from "react-router-dom";
-import '../styles/cabecalho.css'
+import '../assets/styles/cabecalho.css'
 
 export default function Cabecalho() {
   return (
     <>
-        <nav  class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav  class="navbar navbar-expand-lg bg-body-light">
         <div class="container-fluid">
             <Link class="navbar-brand" href="/"><img className='logo' src={Logo} alt="Logo" /></Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,4 +1,4 @@
-import { StyledLogin } from "../components/Styles";
+import '../assets/styles/Cadastro.css'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -44,7 +44,7 @@ export default function Cadastro() {
   };
 
   return (
-    <StyledLogin>
+    <>
       <form className="form">
         <h2>Cadastro</h2>
         <input
@@ -95,6 +95,6 @@ export default function Cadastro() {
           <button>Voltar</button>
         </Link>
       </form>
-    </StyledLogin>
+    </>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import img6 from '../img/sustentabilidade.png'
+import img6 from '../assets/img/sustentabilidade.png'
 import { StyledMain } from '../components/Styles'
 
 export default function sus() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import imgMenu from "../img/transportes.png"
+import imgMenu from "../assets/img/transportes.png"
 import { StyledMain } from '../components/Styles'
 import TrocaBanner from './Banner'
 

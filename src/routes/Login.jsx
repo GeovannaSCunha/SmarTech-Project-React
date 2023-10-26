@@ -1,4 +1,4 @@
-import { StyledLogin } from '../components/Styles';
+import '../assets/styles/Login.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -11,14 +11,13 @@ export default function FormsOne() {
     const usuarioPadrao = JSON.parse(localStorage.getItem('usuarioPadrao'));
 
     if (usuario === usuarioPadrao.usuario && senha === usuarioPadrao.senha) {
-      navigate('/Feedback');
+      navigate('/Principal');
     } else {
       alert('Credenciais incorretas');
     }
   };
 
   return (
-    <StyledLogin>
       <form className="form">
         <h1>Acesse a plataforma</h1>
         <input
@@ -42,6 +41,5 @@ export default function FormsOne() {
           <button>Não tem login? Cadastre-se!</button>
         </Link>
       </form>
-    </StyledLogin>
   );
 }
