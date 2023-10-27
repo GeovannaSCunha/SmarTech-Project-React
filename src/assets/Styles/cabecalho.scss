@@ -1,3 +1,49 @@
-.logo{
-    width: 30%;
+$letter-color: #2247e4 !default;
+
+.logo {
+  width: 60%;
+  max-width: 300px; /* Defina um tamanho máximo para a imagem do logotipo */
+  padding: 10px 20px 10px 0; /* Adicione algum espaço à direita do logotipo */
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-right: 0;
+}
+.container-navbar{
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.navbar {
+  background-color: #fff; /* Altere a cor de fundo do Navbar, se necessário */
+  border-bottom: 1px solid #e5e5e5; /* Adicione uma borda na parte inferior */
+}
+
+.nav-link-pagee {
+  color: black;
+  text-decoration: none;
+  font-size: 18px; /* Reduza um pouco o tamanho da fonte para um visual mais equilibrado */
+  margin-right: 20px; /* Adicione algum espaço entre os itens da Navbar */
+}
+
+.nav-link-pagee:hover {
+  color: rgb(104, 102, 102);
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold; /* Adicione peso à fonte para destacar o link ativo */
+  color: $letter-color!important;
+}
+
+
+@media(max-width:1135px) {
+  .container-navbar{
+      display: block;
+  }
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import img5 from '../assets/img/trajeto_onibus.png'
-import { StyledMain } from '../components/Styles'
+import '../assets/Styles/principal.css'
 
 export default function solucoes() {
   return (
     <>
-    <StyledMain>
+    <main>
       <section>
         <h1>Como melhorar a qualidade dos tranportes públicos</h1>
 
@@ -15,7 +15,7 @@ export default function solucoes() {
 
         <img src={img5} alt="mapa" width="100%"/>
       </section>
-    </StyledMain>
+    </main>
     </>
   )
 }
