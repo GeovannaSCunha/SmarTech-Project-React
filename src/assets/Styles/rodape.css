@@ -1,0 +1,16 @@
+footer {
+  background-color: rgb(226, 226, 226);
+  color: rgb(61, 61, 61);
+  padding: 80px;
+  text-align: center;
+}
+footer .textos {
+  margin-top: 3%;
+}
+footer .textos p {
+  margin: 0.5%;
+}
+footer .textos #negrito {
+  margin-top: 2%;
+  font-weight: bold;
+}/*# sourceMappingURL=rodape.css.map */
