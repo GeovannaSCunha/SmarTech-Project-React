@@ -1,17 +1,18 @@
-import React from 'react'
 import Logo2 from "../assets/img/logo.png"
-import { StyledFooter } from './Styles'
+import '../assets/Styles/rodape.css'
 
 export default function Rodape() {
   return (
   <>
-  <StyledFooter>
+  <footer>
     <img src={Logo2} alt="logo" width="50px"/>
-    <p>Av. Paulista, 1106 - 4º andar</p>
-    <p>Bela Vista, São Paulo - SP, 01311-000</p>
-    <p>Sprint - Engenharia de Software</p>
-    <p><b>FIAP</b></p>
-  </StyledFooter>
+    <div className="textos">
+      <p>Av. Paulista, 1106 - 4º andar</p>
+      <p>Bela Vista, São Paulo - SP, 01311-000</p>
+      <p>Sprint - Engenharia de Software</p>
+      <p id="negrito">FIAP</p>
+    </div>
+  </footer>
   </>
   
   )
