@@ -6,5 +6,5 @@
 - Lana Giulia Auada Leite – RM 551143 
 - Mirella de Rossi Imenez – RM 97990 
 
-#Link do Repositório
+## Link do Repositório
 https://github.com/GeovannaSCunha/SmarTech-Project-React
