@@ -1,100 +1,64 @@
-import '../assets/styles/Cadastro.css'
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import '../assets/styles/Login.css'
+import { Link, useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
 
-export default function Cadastro() {
+export default function Register() {
   const [email, setEmail] = useState('');
-  const [nome, setNome] = useState('');
-  const [usuario, setUsuario] = useState('');
-  const [senha, setSenha] = useState('');
-  const [confirmSenha, setConfirmSenha] = useState('');
+  const [fullName, setFullName] = useState('');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+  const navigate = useNavigate();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
 
-  const handleInputChange = (event) => {
-    const { name, value } = event.target;
-
-    switch (name) {
-      case 'email':
-        setEmail(value);
-        break;
-      case 'nome':
-        setNome(value);
-        break;
-      case 'usuario':
-        setUsuario(value);
-        break;
-      case 'senha':
-        setSenha(value);
-        break;
-      case 'confirmSenha':
-        setConfirmSenha(value);
-        break;
-      default:
-        break;
+    if (password !== confirmPassword) {
+      alert('As senhas não correspondem.');
+      return;
     }
-  };
 
-  const handleCadastro = () => {
-    const usuarioPadrao = {
-      
-      usuario,
-      senha,
-    };
-
-    localStorage.setItem('usuarioPadrao', JSON.stringify(usuarioPadrao));
+    fetch('http://localhost:5000/users', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email, fullName, username, password }),
+    })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data.id) {
+        alert('Usuário registrado com sucesso!');
+        navigate('/Login');
+      } else {
+        alert('Erro ao registrar usuário.');
+      }
+    })
+    .catch((error) => console.error('Error:', error));
   };
 
   return (
-    <>
-      <form className="form">
-        <h2>Cadastro</h2>
-        <input
-          type="text"
-          className="input"
-          placeholder="E-mail"
-          name="email"
-          value={email}
-          onChange={handleInputChange}
-        ></input>
-        <input
-          type="text"
-          className="input"
-          placeholder="Nome completo"
-          name="nome"
-          value={nome}
-          onChange={handleInputChange}
-        ></input>
-        <input
-          type="text"
-          className="usuario"
-          placeholder="Usuário"
-          name="usuario"
-          value={usuario}
-          onChange={handleInputChange}
-        ></input>
-        <input
-          type="password"
-          className="senha"
-          placeholder="Senha"
-          name="senha"
-          value={senha}
-          onChange={handleInputChange}
-        ></input>
-        <input
-          type="password"
-          className="input"
-          placeholder="Confirme a senha"
-          name="confirmSenha"
-          value={confirmSenha}
-          onChange={handleInputChange}
-        ></input>
-
-        <Link to="/Login">
-          <button onClick={handleCadastro}>Cadastrar</button>
-        </Link>
-        <Link to="/Login">
-          <button>Voltar</button>
-        </Link>
-      </form>
-    </>
+    <form onSubmit={handleSubmit}>
+      <label>
+        E-mail:
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+      </label>
+      <label>
+        Nome completo:
+        <input type="text" value={fullName} onChange={(e) => setFullName(e.target.value)} required />
+      </label>
+      <label>
+        Nome de usuário:
+        <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />
+      </label>
+      <label>
+        Senha:
+        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+      </label>
+      <label>
+        Confirmar senha:
+        <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} required />
+      </label>
+      <button type="submit">Registrar</button>
+    </form>
   );
 }
