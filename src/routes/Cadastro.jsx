@@ -37,7 +37,7 @@ export default function Register() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form"onSubmit={handleSubmit}>
       <label>
         E-mail:
         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
