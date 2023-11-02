@@ -1,6 +1,6 @@
 import React from 'react'
 import img6 from '../assets/img/sustentabilidade.png'
-import '../assets/Styles/principal.css'
+import '../assets/Styles/mainPages.css'
 
 export default function sus() {
   return (

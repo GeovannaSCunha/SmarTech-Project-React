@@ -1,35 +1,30 @@
-main {
-  margin-bottom: 7%;
-  padding: 5%;
-  color: rgb(61, 61, 61);
+.principal {
+  display: block;
 }
-main section h1 {
+.principal .titulo {
   text-align: center;
-  font-size: 2.18em;
-  margin-bottom: 4%;
-}
-main section p {
-  text-indent: 4%;
-  font-size: 1.2em;
-  text-align: center;
-  margin-bottom: 2%;
-}
-
-.titulo {
-  text-align: center;
-  font-size: 50px;
+  font-size: 2.4em;
   color: rgb(37, 37, 219);
   text-decoration: underline;
 }
-
-.imgdarota {
-  margin-left: 30%;
+.principal .imgdarota {
+  width: 80%;
+  margin-left: 11%;
   margin-top: 15px;
   margin-bottom: 20px;
 }
-
-#feed {
-  margin-top: 50px;
-  margin-left: 40%;
-  margin-bottom: 30px;
+.principal #feed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+.principal a {
+  text-decoration: none;
+}
+@media screen and (max-width: 535px) {
+  .principal .titulo {
+    font-size: 1.5em;
+  }
 }/*# sourceMappingURL=Principal.css.map */

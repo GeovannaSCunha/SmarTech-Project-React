@@ -20,13 +20,20 @@ export const StyledNC = styled.main`
 
     #ibm img {
     width: 35%;
-    margin-left: 20%;
     }
 
     #content p {
-    margin-left: -15%;
+    margin-left: -10%;
     justify-content: center;
     align-items: center;
     text-align: center;
     }
+    
+  @media screen and (max-width: 850px) {
+    section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    }
+}
 `;

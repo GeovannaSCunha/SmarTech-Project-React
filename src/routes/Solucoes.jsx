@@ -1,6 +1,6 @@
 import React from 'react'
 import img5 from '../assets/img/trajeto_onibus.png'
-import '../assets/Styles/principal.css'
+import '../assets/Styles/mainPages.css'
 
 export default function solucoes() {
   return (

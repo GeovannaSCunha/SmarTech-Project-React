@@ -1,6 +1,6 @@
 import React from 'react'
 import img7 from '../assets/img/techsustentavel.png'
-import '../assets/Styles/principal.css'
+import '../assets/Styles/mainPages.css'
 
 export default function solucoes() {
   return (

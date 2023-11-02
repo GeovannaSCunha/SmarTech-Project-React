@@ -1,5 +1,5 @@
 import img4 from '../assets/img/demanda.png'
-import '../assets/Styles/principal.css'
+import '../assets/Styles/mainPages.css'
 
 export default function problem() {
   return (
