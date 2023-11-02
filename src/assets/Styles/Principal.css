@@ -13,4 +13,20 @@ main section p {
   font-size: 1.2em;
   text-align: center;
   margin-bottom: 2%;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(37, 37, 219);
+  text-decoration: underline;
+}
+
+.imgdarota {
+  margin-left: 30%;
+  margin-top: 15px;
+}
+
+.feed {
+  justify-content: center;
 }/*# sourceMappingURL=Principal.css.map */
