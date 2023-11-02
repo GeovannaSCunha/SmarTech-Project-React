@@ -1,45 +1,43 @@
-import '../assets/styles/Login.css'
-import { Link, useNavigate } from 'react-router-dom';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-export default function FormsOne() {
-  const [usuario, setUsuario] = useState('');
-  const [senha, setSenha] = useState('');
+function Login() {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const handleLogin = () => {
-    const usuarioPadrao = JSON.parse(localStorage.getItem('usuarioPadrao'));
+  const handleSubmit = async (event) => {
+    event.preventDefault();
 
-    if (usuario === usuarioPadrao.usuario && senha === usuarioPadrao.senha) {
+    const response = await fetch(`http://localhost:5000/users?username=${username}&password=${password}`);
+    const users = await response.json();
+
+    if (users.length > 0) {
+      alert('Login bem-sucedido!');
       navigate('/Principal');
     } else {
-      alert('Credenciais incorretas');
+      alert('Nome de usuário ou senha incorretos.');
     }
   };
 
+  const handleRegister = () => {
+    navigate('/Cadastro');
+  };
+
   return (
-      <form className="form">
-        <h1>Acesse a plataforma</h1>
-        <input
-          type="text"
-          className="input"
-          placeholder="Usuário"
-          value={usuario}
-          onChange={(e) => setUsuario(e.target.value)}
-        />
-        <input
-          type="password"
-          className="input"
-          placeholder="Senha"
-          value={senha}
-          onChange={(e) => setSenha(e.target.value)}
-        />
-        <button type="submit" onClick={handleLogin}>
-          Login
-        </button>
-        <Link to="/cadastro">
-          <button>Não tem login? Cadastre-se!</button>
-        </Link>
-      </form>
+    <form onSubmit={handleSubmit}>
+      <label>
+        Nome de usuário:
+        <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />
+      </label>
+      <label>
+        Senha:
+        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+      </label>
+      <button type="submit">Entrar</button>
+      <button type="button" onClick={handleRegister}>Não tem login? Cadastre-se!</button>
+    </form>
   );
 }
+
+export default Login;
