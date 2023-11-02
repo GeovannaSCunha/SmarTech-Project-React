@@ -6,5 +6,9 @@
 - Lana Giulia Auada Leite – RM 551143 - 1ESPG
 - Mirella de Rossi Imenez – RM 97990 - 1ESPG
 
+## Informações relevantes para código
+- Para rodar o json-server, basta utilizar o comando "npm run backend" no terminal.
+    \{^_^}/
+
 ## Link do Repositório
 https://github.com/GeovannaSCunha/SmarTech-Project-React
