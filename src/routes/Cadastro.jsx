@@ -1,8 +1,8 @@
-import '../assets/styles/Login.css'
+import '../assets/styles/Cadastro.css'
 import { Link, useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 
-export default function Register() {
+export default function Cadastra() {
   const [email, setEmail] = useState('');
   const [fullName, setFullName] = useState('');
   const [username, setUsername] = useState('');
@@ -38,13 +38,14 @@ export default function Register() {
 
   return (
     <form className="form"onSubmit={handleSubmit}>
+      <legend>Cadastro</legend>
       <label>
         E-mail:
         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
       </label>
       <label>
         Nome completo:
-        <input type="text" value={fullName} onChange={(e) => setFullName(e.target.value)} required />
+        <input className="input"type="text" value={fullName} onChange={(e) => setFullName(e.target.value)} required />
       </label>
       <label>
         Nome de usuário:

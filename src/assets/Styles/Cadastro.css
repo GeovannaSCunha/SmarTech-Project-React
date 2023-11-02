@@ -15,7 +15,7 @@
 }
 
 .form input {
-  width: 500px;
+  width: 100%;
   display: inline-block;
   position: relative;
   outline: none;
