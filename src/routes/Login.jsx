@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import '../assets/styles/Login.css'
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -25,7 +26,7 @@ function Login() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <label>
         Nome de usuário:
         <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />

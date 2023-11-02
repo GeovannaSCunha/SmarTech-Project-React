@@ -40,7 +40,7 @@ export default function Avalia() {
 
   return (
     
-      <form onSubmit={handleSubmit}>
+      <form  className="formulario"onSubmit={handleSubmit}>
         <h4>Qual a região em que você reside?</h4>
        <input type="text" className= "input" placeholder="Central, Sul, Norte, Oeste"/>
         
@@ -55,10 +55,10 @@ export default function Avalia() {
         <input type="text" className="input" placeholder="" />
         
         <Link to="/PosFeed">
-          <button type="submit">Enviar</button>
+          <button  className="btn-enviar"type="submit">Enviar</button>
         </Link>
         
-        <Link to="/Login">
+        <Link to="/Principal">
           <button id="v">Voltar</button>
         </Link>
       </form>

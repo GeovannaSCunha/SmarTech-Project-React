@@ -1,3 +1,11 @@
 {
-  "users": []
+  "users": [
+    {
+      "email": "mirella@fiap.com.br",
+      "fullName": "Mirella imenez",
+      "username": "miimenez",
+      "password": "1234",
+      "id": 1
+    }
+  ]
 }
