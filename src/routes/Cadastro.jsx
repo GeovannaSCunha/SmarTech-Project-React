@@ -1,6 +1,6 @@
 import '../assets/styles/Cadastro.css'
-import { Link, useNavigate } from 'react-router-dom';
-import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function Cadastra() {
   const [email, setEmail] = useState('');

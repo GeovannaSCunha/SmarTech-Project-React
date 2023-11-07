@@ -1,4 +1,3 @@
-import React from 'react'
 import img5 from '../assets/img/trajeto_onibus.png'
 import '../assets/Styles/mainPages.css'
 

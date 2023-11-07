@@ -1,4 +1,3 @@
-import React from 'react'
 import img6 from '../assets/img/sustentabilidade.png'
 import '../assets/Styles/mainPages.css'
 

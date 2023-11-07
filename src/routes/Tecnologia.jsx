@@ -1,4 +1,3 @@
-import React from 'react'
 import img7 from '../assets/img/techsustentavel.png'
 import '../assets/Styles/mainPages.css'
 

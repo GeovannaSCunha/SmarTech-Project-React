@@ -1,4 +1,3 @@
-import React from 'react'
 import TrocaBanner from './Banner'
 import '../assets/Styles/principal.css'
 

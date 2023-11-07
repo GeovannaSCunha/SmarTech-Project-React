@@ -1,4 +1,3 @@
-import React from 'react'
 import img1 from '../assets/img/fiap.png'
 import '../assets/Styles/mainPages.css'
 

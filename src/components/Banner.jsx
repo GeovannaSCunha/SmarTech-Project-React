@@ -1,5 +1,5 @@
 // src/ImageSlider.js
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Banner1 from '../assets/img/transportes.png';
 import Banner2 from '../assets/img/foto1.png';
 import Banner3 from '../assets/img/foto2.png';
