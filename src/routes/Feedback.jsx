@@ -54,8 +54,8 @@ export default function Avalia() {
         <h5>Registre aqui suas sugestões, elogio e reclamações</h5>
         <input type="text" className="input" placeholder="" />
         
-        <Link to="/PosFeed">
-          <button  className="btn-enviar"type="submit">Enviar</button>
+        <Link to="/Principal">
+          <button  className="btn-enviar" type="submit">Enviar</button>
         </Link>
         
         <Link to="/Principal">

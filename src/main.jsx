@@ -19,7 +19,6 @@ import Home from './components/Home.jsx';
 import FormsOne from './routes/Login.jsx';
 import Avalia from './routes/Feedback.jsx';
 import Cadastra from './routes/Cadastro.jsx'
-import Avaliou from './routes/PosFeed.jsx'
 import Menu from './routes/Principal.jsx'
 
 
@@ -36,7 +35,6 @@ const router = createBrowserRouter([
     {path: "/login", element: <FormsOne/>},
     {path: "/feedback", element: <Avalia/>},
     {path: "/Cadastro", element: <Cadastra/>},
-    {path: "/PosFeed", element: <Avaliou/>},
     {path: "/Principal", element: <Menu/>}
 
 
