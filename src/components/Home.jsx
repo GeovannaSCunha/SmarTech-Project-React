@@ -1,5 +1,5 @@
 import TrocaBanner from './Banner'
-import '../assets/Styles/principal.css'
+import '../assets/Styles/Principal.css'
 
 export default function Home() {
   return (
