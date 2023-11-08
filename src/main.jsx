@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import GlobalStyle from './assets/styles/EstiloGlobal.jsx'
+import GlobalStyle from './assets/Styles/EstiloGlobal.jsx'
 import Erro404 from './routes/Error404.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
