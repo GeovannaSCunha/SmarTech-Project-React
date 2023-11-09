@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import '../assets/styles/Principal.css'
+import '../assets/Styles/Principal.css'
 import imgrota from '../assets/img/rota.png'
 
 
